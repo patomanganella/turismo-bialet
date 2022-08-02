@@ -12,16 +12,6 @@
   justify-content: end;
 }
 
-.fondo-img {
-  border: solid red;
-}
-
-.fondo-img img {
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-}
-
 .boton-home {
   border-style: solid;
   background-color: #D4252A;
@@ -29,6 +19,26 @@
   font-weight: 500;
   border-width: 2px 2px 2px 2px;
   border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+  color: white;
+  font-style: oblique;
+  text-decoration: none;
+}
+.boton-home:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.1s;
+}
+
+.parrafo-1 {
+  padding: 40px;
+  padding-left: 200px;
+  background-color: white;
+  text-align: center;
+  color: #1D1D1D;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
