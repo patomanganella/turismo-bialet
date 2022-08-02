@@ -33,7 +33,41 @@
   font-weight: 400;
   width: 80%;
 
+}
+
+.bg-home-habitaciones{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(206, 169, 78, 0.726) ;
+ 
+}
+
+.hab-home{
+  
+  display: flex;
+  justify-content: center;
+}
 
 
+.h1-habitaciones{
+  border-bottom: solid 5px #1D1D1D;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #ffff;
+  font-family: "Roboto", Sans-serif;
+ 
+
+  &:hover{
+    color: #1D1D1D;
+    border-bottom: solid 5px #ffff;
+  }
+}
+.container-card-home{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 
 }
+
