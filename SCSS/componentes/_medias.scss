@@ -18,8 +18,39 @@
   font-family: "Roboto", Sans-serif;
   font-weight: 400;
   width: 100%;
-
-     
-      
+    
     }
       }      
+
+@media only screen and (max-width: 860px){
+      .container-habitaciones P{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        color: #FFFFFF;
+        font-family: "Roboto", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+    }
+
+
+@media only screen and (max-width: 860px){
+    .conteiner-habitaciones{
+      padding-top: 50px;
+      // border: solid 3px rgb(128, 19, 0);
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+     
+      background-color: rgba(206, 169, 78, 0.726);
+    }
+  }
+
+@media only screen and (max-width: 860px){.carousel{
+  // border: solid 3px blue;
+  width: 300px;
+}
+}
+

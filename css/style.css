@@ -100,6 +100,64 @@
   width: 80%;
 }
 
+.container-habitaciones P {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 30px;
+}
+
+.img-inicio-hab {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.conteiner-habitaciones {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(206, 169, 78, 0.726);
+}
+
+.especificacion-depto {
+  width: 500px;
+  height: 450px;
+  padding-top: 40px;
+}
+
+.lista-especificacion-1 {
+  padding: 8px;
+}
+
+.carousel {
+  width: 500px;
+}
+
+.carousel-item {
+  width: 500px;
+  height: 450px;
+}
+
+.carousel-item img {
+  padding-top: 50px;
+  padding-left: 10px;
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.h3-habitaciones {
+  color: rgba(255, 255, 255, 0.568627451);
+}
+
 @media only screen and (max-width: 860px) {
   .ratio {
     border: #D4252A 3px solid;
@@ -117,6 +175,32 @@
     font-family: "Roboto", Sans-serif;
     font-weight: 400;
     width: 100%;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .container-habitaciones P {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .conteiner-habitaciones {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(206, 169, 78, 0.726);
+  }
+}
+@media only screen and (max-width: 860px) {
+  .carousel {
+    width: 300px;
   }
 }
 
