@@ -188,8 +188,9 @@
   padding-top: 90px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 3;
-  justify-items: center;
+  grid-template-rows: 150px;
+  padding-left: 80px;
+  gap: 50px;
 }
 
 .conteiner-servicios p {
@@ -271,7 +272,7 @@
   }
 }
 @media only screen and (max-width: 860px) {
-  .container-servicios p {
+  .inicio-servicios p {
     position: absolute;
     top: 50%;
     left: 30%;
@@ -280,6 +281,16 @@
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 10.5px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .conteiner-servicios {
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 150px;
+    padding-left: 80px;
+    gap: 50px;
   }
 }
 

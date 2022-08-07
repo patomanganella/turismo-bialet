@@ -34,9 +34,10 @@
     padding-top: 90px;
     display: grid;
     grid-template-columns: repeat( 3, 1fr);
-    grid-template-rows: 3;
-    justify-items: center;
-    
+    grid-template-rows: 150px;
+    padding-left: 80px;
+    gap: 50px;
+      
 
 }
 
