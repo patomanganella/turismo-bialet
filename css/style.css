@@ -139,7 +139,6 @@
 .carousel-item {
   width: 500px;
   height: 450px;
-  border: solid 3px red;
 }
 
 .carousel-item img {
@@ -149,7 +148,6 @@
   height: 450px;
   object-fit: cover;
   padding-bottom: 20px;
-  border: solid 3px red;
 }
 
 .h3-habitaciones {
@@ -215,6 +213,13 @@
     height: 250px;
     object-fit: cover;
     padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .especificacion-depto {
+    width: 500px;
+    height: 450px;
+    padding: 10px;
   }
 }
 

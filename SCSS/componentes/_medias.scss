@@ -75,3 +75,12 @@
     padding-bottom: 20px;
   }
 }
+
+@media only screen and (max-width: 800px){
+.especificacion-depto{
+  // border: solid 3px blue;
+  width: 500px;
+  height: 450px;
+  padding: 10px;
+}
+}
