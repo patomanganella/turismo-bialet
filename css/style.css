@@ -154,6 +154,17 @@
   color: rgba(255, 255, 255, 0.568627451);
 }
 
+.container-servicios p {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 30px;
+}
+
 @media only screen and (max-width: 860px) {
   .ratio {
     border: #D4252A 3px solid;
