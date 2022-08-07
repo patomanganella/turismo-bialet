@@ -203,6 +203,40 @@
   height: 120px;
 }
 
+.inicio-galeria {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.h2-galeria {
+  border-bottom: solid 5px #1D1D1D;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #1D1D1D;
+  font-family: "Roboto", Sans-serif;
+  letter-spacing: 2.5px;
+}
+
+.conteiner-galeria {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.img-galeria {
+  width: 450px;
+  height: 400px;
+}
+
+.img-galeria img {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 860px) {
   .ratio {
     border: #D4252A 3px solid;
