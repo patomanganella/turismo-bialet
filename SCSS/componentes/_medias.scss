@@ -48,9 +48,30 @@
     }
   }
 
-@media only screen and (max-width: 860px){.carousel{
-  // border: solid 3px blue;
+  @media only screen and (max-width: 800px){
+    .carousel{
+    
+      width: 300px;    
+    
+    }
+    }
+
+@media only screen and (max-width: 800px){
+.carousel-item{
+
   width: 300px;
+  height: 250px;
+
 }
 }
 
+@media only screen and (max-width: 800px){
+  .carousel-item img{
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    padding-bottom: 20px;
+  }
+}
