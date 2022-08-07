@@ -123,3 +123,29 @@
     letter-spacing: 2.5px;
 }
 }
+
+
+
+@media only screen and (max-width: 460px){
+
+  .img-galeria{
+    display: flex;
+    justify-content: center;
+    // border: solid 2px rgb(0, 255, 157);
+}
+}
+
+
+
+
+@media only screen and (max-width: 460px){
+
+  .img-galeria img{
+    
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    
+    // border: solid 2px rgb(0, 255, 157);
+}
+}
