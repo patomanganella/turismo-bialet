@@ -425,9 +425,7 @@
 }
 @media only screen and (max-width: 460px) {
   .input-contacto {
-    width: 70%;
     background: white;
-    padding-right: 10px;
     border-radius: 10px;
     margin-bottom: 16px;
     font-family: "Roboto", Sans-serif;
@@ -437,12 +435,9 @@
 }
 @media only screen and (max-width: 460px) {
   .btn-contacto {
-    width: 70%;
     background: rgba(206, 170, 78, 0.466);
     border: none;
-    padding: 12px;
     color: black;
-    margin: 16px 0;
     font-size: 16px;
   }
 }
